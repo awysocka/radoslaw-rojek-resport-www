@@ -9,11 +9,11 @@
     &__img {
 
         &--anna {
-            @include img__personal(url(../../img/profile_img_ania_mobile.jpg));
+            @include img__personal(url(../img/profile_img_ania_mobile.jpg));
         }
 
         &--radoslaw {
-            @include img__personal(url(../../img/profile_img_radoslaw_mobile.jpg));
+            @include img__personal(url(../img/profile_img_radoslaw_mobile.jpg));
         }
     }
 
@@ -29,11 +29,11 @@
         &__img {
 
             &--anna {
-                @include img__personal(url(../../img/profile_img_ania.jpg));
+                @include img__personal(url(../img/profile_img_ania.jpg));
             }
 
             &--radoslaw {
-                @include img__personal(url(../../img/profile_img_radoslaw.jpg));
+                @include img__personal(url(../img/profile_img_radoslaw.jpg));
             }
         }
     }
